@@ -13,19 +13,19 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Neural Engineering Laboratory"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Cajal Neuroscience Center - Spanish National Research Council (CSIC)"
     # Schema.org type for structured data
-    type: person # person | organization | local_business
+    type:  organization 
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Neuroengineering motor control and personalized rehabilitation"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "We combine neurophysiological recordings, wearable sensors, artificial intelligence, and neural interfaces to study and modulate motor control. Our research develops personalized therapies for pathological tremor, identifies muscle synergies as biomarkers of impaired motor control, and advances EMG-driven robotic exoskeletons for gait rehabilitation after neurological injury."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      linkedin: "centro-de-neurociencias-cajal-csic" 
+      # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -90,7 +90,7 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
