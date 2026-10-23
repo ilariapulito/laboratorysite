@@ -38,9 +38,9 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "indigo" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "teal"
+      neutral: "slate" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -128,26 +128,26 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Ci2A - Centro de Investigaciones Interdisciplinarias de Alcalá"
     # For local_business identity type only
     location:
       address:
-        street: ""
-        city: ""
-        region: ""
-        postal_code: ""
-        country: ""
+        street: "Av. de León, 1"
+        city: "Alcalá de Henares"
+        region: "Madrid"
+        postal_code: "28805"
+        country: "ES"
       coordinates:
-        latitude: null
-        longitude: null
-      phone: ""
+        latitude: 40.5098
+        longitude: -3.3486
+      phone: "+34913488782"
     # AI/LLM crawler guidance (llms.txt)
     ai:
       allow:
         - /
       disallow: []
       note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      contact: "https://ci2a.csic.es/"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
