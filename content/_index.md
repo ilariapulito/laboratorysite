@@ -38,7 +38,7 @@ sections:
           <img src="uploads/setup.jpeg" alt="Experimental setup" style="max-width: 48%; min-width: 280px; height: auto; border-radius: 8px;">
           <img src="uploads/setup_no_hd32prolong.jpeg" alt="Wearable device" style="max-width: 48%; min-width: 280px; height: auto; border-radius: 8px;">
         </div>
-  - block: contact
+  - block: contact-info
     content:
       title: Where We Are & Connect 
       subtitle: Cajal Neuroscience Center, CSIC, Madrid
