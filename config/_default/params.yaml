@@ -1,290 +1,167 @@
 # ══════════════════════════════════════════════════════════════════════════════
 # HUGO BLOX CONFIGURATION
 # Schema: hugoblox.com/schema/v2
-# Tutorial: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
 # ══════════════════════════════════════════════════════════════════════════════
 hugoblox:
   schema: "2.0"
 
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
-  # Site-level branding (for people/profiles, use the author system in content/authors/)
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "Neural Engineering Laboratory"
-    # Legal entity for copyright notices (defaults to name if not set)
     organization: "Cajal Neuroscience Center - Spanish National Research Council (CSIC)"
-    # Schema.org type for structured data
-    type:  organization 
-    # Short tagline displayed on your site
+    type: organization 
     tagline: "Neuroengineering motor control and personalized rehabilitation"
-    # Site meta description for search engines and social sharing
     description: "We combine neurophysiological recordings, wearable sensors, artificial intelligence, and neural interfaces to study and modulate motor control. Our research develops personalized therapies for pathological tremor, identifies muscle synergies as biomarkers of impaired motor control, and advances EMG-driven robotic exoskeletons for gait rehabilitation after neurological injury."
-    # Social accounts (used for meta tags like Twitter Cards)
     social:
       linkedin: "centro-de-neurociencias-cajal-csic" 
-      # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
-  # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
-    # Optional: Override theme pack colors
     colors:
-      primary: "indigo" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: "teal"
-      neutral: "slate" # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
+      primary: "indigo"  # Blu/Indaco professionale per ambiente accademico
+      secondary: "teal"   # Verde/Ottanio per accenti scientifici
+      neutral: "slate"   # Toni di grigio puliti
     colors_light: {}
     colors_dark: {}
-    # Optional: Semantic surface color overrides
     surfaces:
       background: ""
       foreground: ""
       header:
         background: ""
         foreground: ""
-      footer:
-        background: ""
-        foreground: ""
+        footer:
+          background: ""
+          foreground: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
-  # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    # Theme pack: name from data/fonts/
+    # Opzioni font consigliate per ambiti scientifici: 'academic', 'modern', o 'minimal'
     pack: "academic"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
-  # Spacing and shape tokens
   # ────────────────────────────────────────────────────────────────────────────
   layout:
-    # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
-    # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
-    # Avatar shape in author profiles
-    avatar_shape: circle # circle | square | rounded
+    avatar_shape: circle
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
-  # Site header and navigation bar
   # ────────────────────────────────────────────────────────────────────────────
   header:
     enable: true
-    # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
-    # Stick to top on scroll
+    style: navbar
     sticky: true
-    # Menu alignment
-    align: center # left | center | right
-    # Feature toggles
+    align: center
     search: true
     theme_toggle: true
     theme_picker: false
-    language_switcher: true
-    # Call-to-action button
+    language_switcher: false
     cta:
       enable: false
       text: ""
       url: ""
 
   # ────────────────────────────────────────────────────────────────────────────
-  # FOOTER
-  # Site footer
+  # FOOTER & COPYRIGHT
   # ────────────────────────────────────────────────────────────────────────────
   footer:
-    # Footer style variant
-    style: minimal # minimal | columns | centered
-    language_switcher: true
-    # Custom footer text (HTML supported)
+    style: minimal
+    language_switcher: false
     text: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # COPYRIGHT
-  # Legal notices and licensing
-  # ────────────────────────────────────────────────────────────────────────────
   copyright:
-    # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}. CSIC."
     license:
-      type: cc # cc | custom
+      type: cc
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
-  # Search engine optimization - overrides and technical settings
   # ────────────────────────────────────────────────────────────────────────────
   seo:
-    # Browser tab title override (defaults to identity.name if not set)
-    title: "Ci2A - Centro de Investigaciones Interdisciplinarias de Alcalá"
-    # For local_business identity type only
+    title: "Neural Engineering Laboratory | Cajal Institute CSIC"
     location:
       address:
-        street: "Av. de León, 1"
-        city: "Alcalá de Henares"
+        street: "Avenida Doctor Arce 37"
+        city: "Madrid"
         region: "Madrid"
-        postal_code: "28805"
+        postal_code: "28802"
         country: "ES"
       coordinates:
-        latitude: 40.5098
-        longitude: -3.3486
-      phone: "+34913488782"
-    # AI/LLM crawler guidance (llms.txt)
+        latitude: 40.4465
+        longitude: -3.6845
+      phone: ""
     ai:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
-      contact: "https://ci2a.csic.es/"
+      note: "Guidance for AI crawlers."
+      contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
-  # CONTENT
-  # Content rendering and behavior
+  # CONTENT & OTHER SETTINGS
   # ────────────────────────────────────────────────────────────────────────────
   content:
-    # Math rendering
     math:
-      enable: false
-    # Table of contents
+      enable: true
     toc:
       enable: true
-    # Reading time estimates
     reading_time:
-      enable: true
-    # Academic citations
+      enable: false
     citations:
-      style: apa # apa | mla | chicago | ieee
+      style: ieee # Formato citazioni accademico (IEEE o APA)
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SEARCH
-  # Site search
-  # ────────────────────────────────────────────────────────────────────────────
   search:
     enable: true
-    # Trending/suggested search terms
     suggestions: []
-    # Quick action shortcuts in search modal
     quick_actions: []
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # COMMENTS
-  # User comments system
-  # ────────────────────────────────────────────────────────────────────────────
   comments:
     enable: false
-    provider: "" # giscus | disqus
-    giscus:
-      repo: ""
-      repo_id: ""
-      category: ""
-      category_id: ""
-    disqus:
-      shortname: ""
+    provider: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # ANALYTICS
-  # Traffic and behavior analytics
-  # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
-    google_tag_manager:
-      container_id: "" # GTM-XXXXXXX
-    plausible:
-      domain: ""
-    fathom:
-      site_id: ""
-    pirsch:
-      site_id: ""
-    clarity:
-      project_id: ""
-    baidu:
-      site_id: ""
+      measurement_id: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # VERIFICATION
-  # Search engine site verification codes
-  # ────────────────────────────────────────────────────────────────────────────
   verification:
     google: ""
-    bing: ""
-    baidu: ""
-    yandex: ""
-    pinterest: ""
-    naver: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # REPOSITORY
-  # Source code repository for "Edit this page" links
-  # ────────────────────────────────────────────────────────────────────────────
   repository:
     enable: false
-    url: "" # e.g., https://github.com/username/repo
-    branch: main
-    content_dir: content
+    url: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # LOCALE
-  # Regional formatting preferences
-  # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
+    date_format: "Jan 2, 2006"
     time_format: "3:04 PM"
     address_format: en-us
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SECURITY
-  # Security headers and policies (requires Netlify integration)
-  # ────────────────────────────────────────────────────────────────────────────
   security:
     csp:
       policy: ""
       report_only: false
-    frame_options: allow # deny | sameorigin | allow - allow enables iframe embedding
+    frame_options: allow # Necessario per caricare l'iframe di Google Maps
     permissions_policy: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # PRIVACY
-  # Privacy and compliance features
-  # ────────────────────────────────────────────────────────────────────────────
   privacy:
     enable: false
     anonymize_analytics: true
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # DEBUG
-  # Development and debugging (hidden in production)
-  # ────────────────────────────────────────────────────────────────────────────
   debug:
     enable: false
-    hud:
-      position: bottom-left # top-left | top-right | bottom-left | bottom-right
-      opacity: 1.0
-    export_logs: true
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # PREMIUM
-  # Premium features and creator program (affiliates)
-  # ────────────────────────────────────────────────────────────────────────────
   pro:
-    # Hide "Powered by HugoBlox" attribution
-    # Requires: HugoBlox Premium to support HugoBlox via alternative means
-    # Note: Even with Premium, you can keep this false to support open source!
-    # Get Premium: https://hugoblox.com/premium
     hide_attribution: false
-
-    # Affiliate referral code for rewards program
-    # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
