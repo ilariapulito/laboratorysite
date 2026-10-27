@@ -34,14 +34,21 @@ sections:
     content:
       title: Our Laboratory
       text: |-
-        ![Experimental setup](/uploads/setup.jpeg)
-
-        ![Wearable device](/uploads/setup_no_hd32prolong.jpeg)
-
-  - block: contact-info
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
+          <img src="uploads/setup.jpeg" alt="Experimental setup" style="max-width: 48%; min-width: 280px; height: auto; border-radius: 8px;">
+          <img src="uploads/setup_no_hd32prolong.jpeg" alt="Wearable device" style="max-width: 48%; min-width: 280px; height: auto; border-radius: 8px;">
+        </div>
+  - block: contact
     content:
-      title: Where we are
+      title: Where We Are & Connect 
       subtitle: Cajal Neuroscience Center, CSIC, Madrid
+      text: |
+        ![Cajal Neuroscience Center](uploads/ci2a.png)
+        We are based at the **Instituto Cajal (CSIC)** in Madrid. Our laboratory is open to academic collaborations, PhD applications, and postdoctoral positions in neuroengineering and motor rehabilitation.
+      post_address: |
+        Cajal Institute, CSIC
+        Avenida Doctor Arce 37
+        28002 Madrid, Spain
       map_embed: |
-        INCOLLA_QUI_TUTTO_L_IFRAME_COPIATO_DA_GOOGLE_MAPS
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.2368793847886!2d-3.350135023594038!3d40.51425504969724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd424b7975ff2ecd%3A0x4283ca428f21c213!2sCi2A!5e0!3m2!1sit!2snl!4v1793113323437!5m2!1sit!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 ---
