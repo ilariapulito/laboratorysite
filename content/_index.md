@@ -39,11 +39,13 @@ sections:
           <img src="uploads/setup_no_hd32prolong.jpeg" alt="Wearable device" style="max-width: 48%; min-width: 280px; height: auto; border-radius: 8px;">
         </div>
   - block: contact-info
+    design:
+      columns: '1' # Espande il riquadro su tutta la larghezza della pagina
     content:
-      title: Where We Are & Connect 
-      subtitle: Cajal Neuroscience Center, CSIC, Madrid
+      title: Connect
       text: |
-        ![Cajal Neuroscience Center](uploads/ci2a.png)
+        <img src="uploads/ci2a.png" alt="Cajal Neuroscience Center" style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 8px; margin-bottom: 20px;">
+
         We are based at the **Instituto Cajal (CSIC)** in Madrid. Our laboratory is open to academic collaborations, PhD applications, and postdoctoral positions in neuroengineering and motor rehabilitation.
       post_address: |
         Cajal Institute, CSIC
