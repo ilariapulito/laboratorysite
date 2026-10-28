@@ -9,7 +9,7 @@ sections:
       size: tall
       background:
         image:
-          filename: Arm_NEW.jpg
+          filename: arm_NEW.jpg
           filters:
             brightness: 0.5
         text_color_light: true
@@ -32,7 +32,7 @@ sections:
 
   - block: markdown
     design:
-      columns: '1' # Forzatura della larghezza completa del layout
+      columns: '1' # Estende il blocco a tutta la larghezza
     content:
       title: Our Laboratory
       text: |-
@@ -42,6 +42,9 @@ sections:
         </div>
 
   - block: collection
+    design:
+      columns: '1'
+      view: citation
     content:
       title: Selected Publications
       subtitle: Recent high-impact research outputs
@@ -51,17 +54,14 @@ sections:
           - publication
         featured_only: true
         count: 5
-    design:
-      columns: '1'
-      view: citation
 
   - block: markdown
     design:
-      columns: '1' # Forzatura della larghezza completa del layout
+      columns: '1' # Estende il blocco a tutta la larghezza
     content:
       title: Where We Are
       text: |-
-        <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin-top: 20px;">
+        <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin-top: 20px; width: 100%;">
           <div style="flex: 1; min-width: 280px;">
             <img src="uploads/ci2a.png" alt="Cajal Neuroscience Center" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
           </div>
@@ -71,46 +71,10 @@ sections:
         </div>
 
   - block: contact-info
+    design:
+      columns: '1' # Estende la sezione contatti a tutta la larghezza
     content:
       title: Connect
       text: |
-        <div style="font-size: 1.05rem; line-height: 1.6;">
-          <p style="margin-bottom: 12px;">
-            <i class="fas fa-paper-plane" style="color: #6366f1; margin-right: 8px;"></i>
-            <strong>Get in Touch</strong>
-          </p>
-          <p>
-            Interested in our research, open positions (Master / PhD / Postdoc), or potential academic collaborations? Feel free to reach out or connect across our platforms.
-          </p>
-          <div style="margin-top: 15px;">
-            <a href="mailto:tuamail@cajal.csic.es" style="display: inline-block; padding: 8px 16px; background-color: #4f46e5; color: white; border-radius: 6px; font-weight: 500; text-decoration: none; font-size: 0.9rem;">
-              <i class="fas fa-envelope" style="margin-right: 6px;"></i> Send an Email
-            </a>
-          </div>
-        </div>
-
-  - block: markdown
-    design:
-      columns: '1'
-    content:
-      title: Connect & Collaborate
-      text: |-
-        <div style="background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; padding: 30px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-          <div style="flex: 2; min-width: 280px;">
-            <h3 style="margin-top: 0; color: #1e1b4b; display: flex; align-items: center; gap: 10px;">
-              <i class="fas fa-flask" style="color: #4f46e5;"></i> Join or Collaborate With Us
-            </h3>
-            <p style="color: #475569; margin-bottom: 0;">
-              We are open to joint research projects, Master/PhD supervision, and postdoctoral applications in neuroengineering and motor rehabilitation.
-            </p>
-          </div>
-          <div style="flex: 1; min-width: 220px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px;">
-            <a href="mailto:tuamail@cajal.csic.es" style="width: 100%; text-align: center; padding: 10px 18px; background-color: #4f46e5; color: white; border-radius: 8px; font-weight: 600; text-decoration: none; box-shadow: 0 2px 8px rgba(79, 70, 229, 0.25);">
-              <i class="fas fa-envelope" style="margin-right: 8px;"></i> Email Us
-            </a>
-            <a href="https://www.linkedin.com/in/tuoprofilo" target="_blank" style="width: 100%; text-align: center; padding: 10px 18px; background-color: #ffffff; color: #0077b5; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; text-decoration: none;">
-              <i class="fab fa-linkedin" style="margin-right: 8px;"></i> LinkedIn Profile
-            </a>
-          </div>
-        </div>
+        Interested in our research, open positions (Master / PhD / Postdoc), or potential academic collaborations? Feel free to reach out to us or connect across our platforms.
 ---
