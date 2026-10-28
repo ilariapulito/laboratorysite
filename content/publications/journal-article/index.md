@@ -34,6 +34,10 @@ url_source: ""
 url_video: ""
 
 links:
+  - name: PDF
+    url: "https://assets-eu.researchsquare.com/files/rs-11037624/v1/d2c4cef219c403b70cdf4b43.pdf"
+    icon_pack: fas
+    icon: file-pdf
   - name: Research Square
     url: https://doi.org/10.21203/rs.3.rs-11037624/v1
     icon_pack: fas
