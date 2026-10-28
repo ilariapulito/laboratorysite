@@ -51,7 +51,7 @@ sections:
       text: ''
       filters:
         folders:
-          - publication
+          - publications
         featured_only: true
         count: 5
 
