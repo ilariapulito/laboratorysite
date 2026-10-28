@@ -9,7 +9,7 @@ sections:
       size: tall
       background:
         image:
-          filename: arm_NEW.jpg
+          filename: Arm_NEW.jpg
           filters:
             brightness: 0.5
         text_color_light: true
