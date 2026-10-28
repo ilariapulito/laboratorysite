@@ -4,7 +4,7 @@ summary: Meet our researchers and lab members
 type: landing
 
 sections:
-  - block: people
+  - block: team-showcase
     content:
       title: Principal Investigator
       user_groups:
@@ -14,7 +14,7 @@ sections:
       show_interests: true
       show_role: true
 
-  - block: people
+  - block: team-showcase
     content:
       title: Postdoctoral & Research Fellows
       user_groups:
@@ -24,7 +24,7 @@ sections:
       show_interests: true
       show_role: true
 
-  - block: people
+  - block: team-showcase
     content:
       title: PhD Students
       user_groups:
@@ -34,7 +34,7 @@ sections:
       show_interests: true
       show_role: true
 
-  - block: people
+  - block: team-showcase
     content:
       title: Master & Visiting Students
       user_groups:
