@@ -39,19 +39,19 @@ sections:
           <img src="uploads/setup_no_hd32prolong.jpeg" alt="Wearable device" style="max-width: 48%; min-width: 280px; height: auto; border-radius: 8px;">
         </div>
 
-
   - block: collection
-      content:
-        title: Selected Publications
-        subtitle: Recent high-impact research outputs
-        text: ''
-        filters:
-          folders:
-            - publication
-          featured_only: true
-      design:
-        columns: '2'
-        view: compact
+    content:
+      title: Selected Publications
+      subtitle: Recent high-impact research outputs
+      text: ''
+      filters:
+        folders:
+          - publication
+        featured_only: true
+        count: 5
+    design:
+      columns: '1'
+      view: compact
 
   - block: markdown
     content:
