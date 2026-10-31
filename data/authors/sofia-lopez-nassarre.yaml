@@ -1,12 +1,14 @@
 title: Sofía López Nassarre
+name:
+  display: Sofía López Nassarre
+  family: López Nassarre
 role: Undergraduate Student
 user_groups:
   - Students
 
-bio: |
-  Biomedical Engineering student at Universidad Carlos III de Madrid, currently on an exchange year at Case Western Reserve University. Interested in biomedical signals, instrumentation and data analysis.
+bio: Biomedical Engineering student at UC3M, on an exchange year at Case Western Reserve University. Interested in biomedical signals, instrumentation and data analysis.
 
-organizations:
+affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
@@ -23,5 +25,3 @@ education:
   - course: Exchange Year
     institution: Case Western Reserve University (USA)
     year: 2025 - 2026
-
-social: []
