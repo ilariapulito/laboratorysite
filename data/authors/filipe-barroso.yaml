@@ -1,0 +1,35 @@
+title: Filipe Oliveira Barroso
+role: Senior Research Fellow / Postdoctoral Researcher
+user_groups:
+  - Principal Investigators
+
+bio: |
+  Researching motor control, closed-loop neuromodulation, FES, and tremor suppression.
+
+organizations:
+  - name: Neural Engineering Laboratory (CSIC)
+    url: ''
+
+interests:
+  - Movement Disorders
+  - Motor Control
+  - EMG & Functional Electrical Stimulation (FES)
+  - Tremor Suppression
+  - Biomechanics
+  - Neural Rehabilitation
+
+education:
+  - course: PhD in Biomedical Engineering
+    institution: University of Minho (Portugal)
+    year: 2016
+  - course: MSc in Biomedical Engineering
+    institution: University of Minho (Portugal)
+    year: 2011
+
+social:
+  - icon: envelope
+    link: 'mailto:filipe.barroso@cajal.csic.es'
+  - icon: academicons/google-scholar
+    link: 'https://scholar.google.com/citations?user=cksR_H0AAAAJ&hl=pt-BR'
+  - icon: brands/linkedin
+    link: 'https://www.linkedin.com/in/filipe-oliveira-barroso-58a1a89a/'
