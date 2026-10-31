@@ -1,0 +1,26 @@
+title: Blanca Álvarez-Cedrón Benavente
+role: Undergraduate Student
+user_groups:
+  - Students
+
+bio: |
+  Double degree student in Physics Engineering and Industrial Technologies Engineering at Universidad Carlos III de Madrid. Working on the development and validation of an AI-controlled electronic arm sleeve for tremor reduction.
+
+organizations:
+  - name: Neural Engineering Laboratory (CSIC)
+    url: ''
+
+interests:
+  - Biomedical Instrumentation
+  - Assistive Technology
+  - Tremor Suppression
+  - Medical Physics
+
+education:
+  - course: Double Degree in Physics Engineering and Industrial Technologies Engineering
+    institution: Universidad Carlos III de Madrid (Spain)
+    year: 2026
+
+social: 
+  - icon: brands/linkedin
+    link: 'https://www.linkedin.com/in/blanca-%C3%A1lvarez-cedr%C3%B3n-benavente-1a3a9836a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BGDfQp9RTR72QSH1QHYm6uA%3D%3D'
