@@ -1,4 +1,6 @@
 ---
+authors:
+  - Hajar-Boulehdid
 # Nome completo
 title: Hajar Boulehdid
 
