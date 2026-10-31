@@ -4,15 +4,16 @@ title: Filipe Oliveira Barroso
 
 # Ruolo nel laboratorio
 role: Senior Research Fellow / Postdoctoral Researcher
+# Gruppo di appartenenza nella pagina Team
+user_groups:
+  - Principal Investigators
 
 # Affiliazione
 organizations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
-# Gruppo di appartenenza nella pagina Team
-user_groups:
-  - Principal Investigators
+
 
 # Sintesi biografica per la card
 bio: Researching motor control, closed-loop neuromodulation, FES, and tremor suppression.
