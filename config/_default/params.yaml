@@ -44,7 +44,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Opzioni font consigliate per ambiti scientifici: 'academic', 'modern', o 'minimal'
-    pack: "academic"
+    pack: "geometric"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
