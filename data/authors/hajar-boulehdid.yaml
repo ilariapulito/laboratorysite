@@ -1,0 +1,23 @@
+title: Hajar Boulehdid
+role: Research Assistant
+user_groups:
+  - PhD Students
+
+bio: |
+  Researching neurotechnology, wearable systems, and closed-loop neuromodulation.
+
+organizations:
+  - name: Neural Engineering Laboratory (CSIC)
+    url: ''
+
+interests:
+  - Neurotechnology
+  - AI
+  - Closed-loop Neuromodulation
+  - Tremor Suppression
+
+social:
+  - icon: envelope
+    link: 'mailto:hajar.boulehdid@cajal.csic.es'
+  - icon: brands/linkedin
+    link: 'https://www.linkedin.com/in/hajar-boulehdid-660671280/'
