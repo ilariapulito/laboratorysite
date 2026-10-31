@@ -1,0 +1,23 @@
+title: Ilaria Pulito
+role: PhD Student
+user_groups:
+  - PhD Students
+
+bio: |
+  Researching neurotechnology, wearable systems, and closed-loop neuromodulation.
+
+organizations:
+  - name: Neural Engineering Laboratory (CSIC)
+    url: ''
+
+interests:
+  - Neurotechnology
+  - Wearable Systems
+  - Closed-loop Neuromodulation
+  - Tremor Suppression
+
+social:
+  - icon: envelope
+    link: 'mailto:ilaria.pulito@csic.es'
+  - icon: brands/linkedin
+    link: 'https://www.linkedin.com/in/ilaria-pulito-78077b33a/'
