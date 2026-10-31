@@ -1,12 +1,14 @@
 title: Roberta Fumarola
+name:
+  display: Roberta Fumarola
+  family: Fumarola
 role: Master's Thesis Student
 user_groups:
   - Students
 
-bio: |
-  Master's student carrying out her thesis at the Neural Engineering Laboratory. Experienced in biomedical data analysis, neural signal processing and computational neuroscience.
+bio: Master's student carrying out her thesis at the Neural Engineering Laboratory, with experience in biomedical data analysis, neural signal processing and computational neuroscience.
 
-organizations:
+affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
@@ -16,5 +18,3 @@ interests:
   - Biomedical Imaging
   - Machine Learning
   - Biomedical Robotics
-
-social: []
