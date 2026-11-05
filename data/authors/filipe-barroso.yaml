@@ -6,19 +6,15 @@ role: Senior Research Fellow / Postdoctoral Researcher
 user_groups:
   - Principal Investigators
 
-bio: Researching motor control, closed-loop neuromodulation, FES, and tremor suppression.
+# Inserisci qui il mini-resumen del suo percorso accademico
+bio: "Group Leader & Ramón y Cajal Fellow (CSIC). PhD in Biomedical Engineering (ex-Northwestern Univ.). Researching neural interfaces, FES, and wearable tremor suppression systems."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
-interests:
-  - Movement Disorders
-  - Motor Control
-  - EMG & Functional Electrical Stimulation (FES)
-  - Tremor Suppression
-  - Biomechanics
-  - Neural Rehabilitation
+# Lasciando la lista vuota, i tag/targhette in basso scompaiono
+interests: []
 
 links:
   - icon: envelope
