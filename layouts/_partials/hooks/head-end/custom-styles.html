@@ -1,0 +1,13 @@
+<style>
+  /* Desactiva el recore de texto (line-clamp) en las tarjetas del equipo */
+  .people-widget p,
+  div[aria-label="people"] p,
+  .portrait-title p,
+  [class*="line-clamp"] {
+    -webkit-line-clamp: unset !important;
+    line-clamp: unset !important;
+    overflow: visible !important;
+    display: block !important;
+    max-height: none !important;
+  }
+</style>
