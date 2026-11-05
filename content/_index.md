@@ -83,7 +83,7 @@ sections:
         Interested in our research, open positions (Master / PhD / Postdoc), or potential academic collaborations? Feel free to reach out to us or connect across our platforms.
 
         <div style="margin-top: 20px; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
-          <a href="mailto:hajar.boulehdid@cajal.csic.es" style="padding: 10px 20px; background-color: #0d9488; color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">📧 Send an Email</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" style="padding: 10px 20px; border: 1px solid #0d9488; color: #0d9488; border-radius: 6px; text-decoration: none; font-weight: 600;">LinkedIn Page</a>
+          <a href="mailto:filipe.barroso@cajal.csic.es" style="padding: 10px 20px; background-color: #0d9488; color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">📧 Send an Email</a>
+          <a href="https://www.linkedin.com/company/centro-de-neurociencias-cajal-csic/posts/" target="_blank" rel="noopener" style="padding: 10px 20px; border: 1px solid #0d9488; color: #0d9488; border-radius: 6px; text-decoration: none; font-weight: 600;">LinkedIn Page</a>
         </div>
 ---
