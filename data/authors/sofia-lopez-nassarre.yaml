@@ -6,22 +6,12 @@ role: Undergraduate Student
 user_groups:
   - Students
 
-bio: Biomedical Engineering student at UC3M, on an exchange year at Case Western Reserve University. Interested in biomedical signals, instrumentation and data analysis.
+# Mini-resumen con percorso accademico, scambio all'estero e focus di ricerca
+bio: "Biomedical Engineering student at UC3M. Researching wearable sleeves for essential tremor suppression."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
-interests:
-  - Biomedical Signals and Instrumentation
-  - Biomedical Data Analysis
-  - Medical Image Processing
-  - Biomechanics
-
-education:
-  - course: BSc in Biomedical Engineering
-    institution: Universidad Carlos III de Madrid (Spain)
-    year: 2023 - present
-  - course: Exchange Year
-    institution: Case Western Reserve University (USA)
-    year: 2025 - 2026
+# Svuotato per rimuovere i tag grigi sotto la scheda
+interests: []
