@@ -32,16 +32,16 @@ sections:
 
   - block: markdown
     design:
-      columns: '1'
+      columns: '1' # Estende il blocco a tutta la larghezza
     content:
       title: Our Laboratory
       text: |-
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%; margin-top: 20px;">
-          <img src="uploads/setup.jpeg" alt="Experimental setup" style="width: 100%; height: 260px; object-fit: contain; background: #fafafa; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-          <img src="uploads/laboratory.png" alt="Our Laboratory 1" style="width: 100%; height: 260px; object-fit: contain; background: #fafafa; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-          <img src="uploads/laboratory2.png" alt="Our Laboratory 2" style="width: 100%; height: 260px; object-fit: contain; background: #fafafa; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%; margin-top: 20px; align-items: center;">
+          <img src="uploads/setup.jpeg" alt="Experimental setup" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+          <img src="uploads/laboratory.png" alt="Our Laboratory 1" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+          <img src="uploads/laboratory2.png" alt="Our Laboratory 2" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         </div>
-
+        
   - block: collection
     design:
       columns: '1'
