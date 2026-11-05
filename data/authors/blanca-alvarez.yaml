@@ -22,5 +22,8 @@ education:
     year: 2026
 
 links:
+  - icon: envelope
+    url: 'mailto:blanca.acb13@gmail.com'
   - icon: linkedin
     url: 'https://www.linkedin.com/in/blanca-%C3%A1lvarez-cedr%C3%B3n-benavente-1a3a9836a/'
+    
