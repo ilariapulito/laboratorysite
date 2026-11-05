@@ -31,16 +31,16 @@ sections:
           image: exoscheletons.jpg
 
   - block: markdown
-  design:
-    columns: '1' # Estende il blocco a tutta la larghezza
-  content:
-    title: Our Laboratory
-    text: |-
-      <div style="display: flex; gap: 20px; width: 100%; margin-top: 20px; flex-wrap: wrap;">
-        <img src="uploads/setup.jpeg" alt="Experimental setup" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-        <img src="uploads/laboratory.png" alt="Our Laboratory 1" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-        <img src="uploads/laboratory2.png" alt="Our Laboratory 2" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-      </div>
+    design:
+      columns: '1' # Estende il blocco a tutta la larghezza
+    content:
+      title: Our Laboratory
+      text: |-
+        <div style="display: flex; gap: 20px; width: 100%; margin-top: 20px; flex-wrap: wrap;">
+          <img src="uploads/setup.jpeg" alt="Experimental setup" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+          <img src="uploads/laboratory.png" alt="Our Laboratory 1" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+          <img src="uploads/laboratory2.png" alt="Our Laboratory 2" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+        </div>
 
   - block: collection
     design:
