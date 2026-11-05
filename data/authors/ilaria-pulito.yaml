@@ -6,17 +6,24 @@ role: PhD Student
 user_groups:
   - PhD Students
 
-bio: Researching neurotechnology, wearable systems, and closed-loop neuromodulation.
+# Mini-resumen del percorso e ricerca
+bio: "PhD candidate at CSIC. Researching wearable neurotechnology, closed-loop peripheral stimulation, and essential tremor suppression."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
-interests:
-  - Neurotechnology
-  - Wearable Systems
-  - Closed-loop Neuromodulation
-  - Tremor Suppression
+# Svuotato per rimuovere i tag grigi sotto la scheda
+interests: []
+
+# Formazione accademica (modifica con i tuoi atenei e anni esatti)
+education:
+  - course: PhD in Biomedical Engineering (in progress)
+    institution: Universidad Politécnica de Madrid (Spain)
+    year: 2027
+  - course: Master's Degree in Biomedical Engineering
+    institution: Politecnico di Torino (Italy)
+    year: 2023
 
 links:
   - icon: envelope
