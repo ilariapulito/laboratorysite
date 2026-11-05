@@ -2,21 +2,19 @@ title: Hajar Boulehdid
 name:
   display: Hajar Boulehdid
   family: Boulehdid
-role: Research Assistant
+role: Research Assistant / PhD Student
 user_groups:
   - PhD Students
 
-bio: Researching neurotechnology, wearable systems, and closed-loop neuromodulation.
+# Mini-resumen del percorso e ricerca
+bio: "Research Assistant at CSIC. Focuses on wearable systems, AI, and closed-loop neuromodulation for tremor suppression."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
-interests:
-  - Neurotechnology
-  - AI
-  - Closed-loop Neuromodulation
-  - Tremor Suppression
+# Svuotato per rimuovere i tag grigi sotto la scheda
+interests: []
 
 links:
   - icon: envelope
