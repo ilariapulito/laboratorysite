@@ -6,17 +6,15 @@ role: Undergraduate Student
 user_groups:
   - Students
 
-bio: Double degree student in Physics Engineering and Industrial Technologies Engineering (UC3M), working on an AI-controlled electronic arm sleeve for tremor reduction.
+# Mini-resumen del percorso e progetto attuale
+bio: "BSc in Physics Engineering & Industrial Technologies Engineering at UC3M. Developing a wearable sleeve for essential tremor suppression."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
-interests:
-  - Biomedical Instrumentation
-  - Assistive Technology
-  - Tremor Suppression
-  - Medical Physics
+# Svuotato per rimuovere i tag grigi sotto la scheda
+interests: []
 
 education:
   - course: Double Degree in Physics Engineering and Industrial Technologies Engineering
