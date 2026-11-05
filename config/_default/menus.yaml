@@ -6,11 +6,11 @@ main:
     url: '/people/'
     weight: 11
   - name: Publications
-    url: '/publications/' # oppure '/#selected-publications' per la homepage
-    weight: 12
+    url: '/publications/' 
+    weight: 30
   - name: News
     url: /#news
-    weight: 13
+    weight: 40
   - name: Contact
-    url: '/#connect'
-    weight: 20
+    url: '/#Connect'
+    weight: 50
