@@ -7,7 +7,7 @@ user_groups:
   - PhD Students
 
 # Mini-resumen del percorso e ricerca
-bio: "Research Assistant at CSIC. Focuses on wearable systems, AI, and closed-loop neuromodulation for tremor suppression."
+bio: "Research Assistant. BSc in Biomedical Engineering and MSc in Data Science from Universidad Autónoma de Madrid. Working on AI-based tremor prediction for closed-loop peripheral electrical stimulation (PES)."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
