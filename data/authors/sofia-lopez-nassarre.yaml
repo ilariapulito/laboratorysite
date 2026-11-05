@@ -15,3 +15,8 @@ affiliations:
 
 # Svuotato per rimuovere i tag grigi sotto la scheda
 interests: []
+
+
+links: 
+  - icon: envelope
+      url: 'mailto:sofialopeznassarre@gmail.com'
