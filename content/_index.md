@@ -54,6 +54,9 @@ sections:
           - publications
         featured_only: true
         count: 5
+      link:
+        text: "View all publications"
+        url: "publications"
 
   - block: markdown
     design:
