@@ -6,15 +6,12 @@ role: Master's Thesis Student
 user_groups:
   - Students
 
-bio: Master's student carrying out her thesis at the Neural Engineering Laboratory, with experience in biomedical data analysis, neural signal processing and computational neuroscience.
+# Mini-resumen del percorso e tesi (con laurea triennale integrata)
+bio: "Master's thesis student at CSIC. BSc in Biomedical Engineering from University of Genoa. Researching lower-limb spinal reflex neuromodulation for stroke rehabilitation."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
     url: ''
 
-interests:
-  - Neural Signal Analysis
-  - Computational Neuroscience
-  - Biomedical Imaging
-  - Machine Learning
-  - Biomedical Robotics
+# Svuotato per rimuovere i tag grigi sotto la scheda
+interests: []
