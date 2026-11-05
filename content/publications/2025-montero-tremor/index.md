@@ -7,6 +7,7 @@ authors:
   - Jakob Lund Dideriksen
   - Álvaro Gutiérrez
   - Javier Ricardo Pérez-Sánchez
+  - Filipe Oliveira Barroso
 
 date: "2025-12-16T00:00:00Z"
 doi: "10.1109/RBME.2025.3639754"
