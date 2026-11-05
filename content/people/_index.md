@@ -14,19 +14,19 @@ sections:
       show_interests: true
       show_role: true
 
-  - block: team-showcase
-    content:
-      title: Postdoctoral & Research Fellows
-      user_groups:
-        - Research Fellows
-    design:
-      show_social: true
-      show_interests: true
-      show_role: true
+#  - block: team-showcase
+ #   content:
+  #    title: Postdoctoral 
+   #   user_groups:
+   #     - Postdoctoral
+  #  design:
+   #   show_social: true
+   #   show_interests: true
+   #   show_role: true
 
   - block: team-showcase
     content:
-      title: PhD Students
+      title: PhD Students & Research Fellows
       user_groups:
         - PhD Students
     design:
