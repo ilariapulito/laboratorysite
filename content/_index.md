@@ -32,14 +32,14 @@ sections:
 
   - block: markdown
     design:
-      columns: '1' # Estende il blocco a tutta la larghezza
+      columns: '1'
     content:
       title: Our Laboratory
       text: |-
-        <div style="display: flex; gap: 20px; width: 100%; margin-top: 20px; flex-wrap: wrap;">
-          <img src="uploads/setup.jpeg" alt="Experimental setup" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-          <img src="uploads/laboratory.png" alt="Our Laboratory 1" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-          <img src="uploads/laboratory2.png" alt="Our Laboratory 2" style="flex: 1; min-width: 220px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%; margin-top: 20px;">
+          <img src="uploads/setup.jpeg" alt="Experimental setup" style="width: 100%; height: 260px; object-fit: contain; background: #fafafa; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+          <img src="uploads/laboratory.png" alt="Our Laboratory 1" style="width: 100%; height: 260px; object-fit: contain; background: #fafafa; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+          <img src="uploads/laboratory2.png" alt="Our Laboratory 2" style="width: 100%; height: 260px; object-fit: contain; background: #fafafa; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         </div>
 
   - block: collection
@@ -74,11 +74,16 @@ sections:
           </div>
         </div>
 
-  - block: contact-info
+  - block: markdown
     design:
-      columns: '1' # Estende la sezione contatti a tutta la larghezza
+      columns: '1'
     content:
       title: Connect
-      text: |
+      text: |-
         Interested in our research, open positions (Master / PhD / Postdoc), or potential academic collaborations? Feel free to reach out to us or connect across our platforms.
+
+        <div style="margin-top: 20px; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
+          <a href="mailto:hajar.boulehdid@cajal.csic.es" style="padding: 10px 20px; background-color: #0d9488; color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">📧 Send an Email</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" style="padding: 10px 20px; border: 1px solid #0d9488; color: #0d9488; border-radius: 6px; text-decoration: none; font-weight: 600;">LinkedIn Page</a>
+        </div>
 ---
