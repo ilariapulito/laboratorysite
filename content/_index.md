@@ -100,6 +100,7 @@ sections:
         </div>
 
   - block: markdown
+    id: contact
     design:
       columns: '1'
     content:
