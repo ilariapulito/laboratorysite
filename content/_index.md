@@ -26,8 +26,8 @@ sections:
         - title: AI-driven Adaptive Therapies
           text: Tremor changes over time, between patients and even within a single day. We use artificial intelligence to learn from wearable accelerometer data and anticipate how a patient’s tremor will evolve, so that stimulation can be adjusted following the tremor pattern. These data-driven strategies pave the way for therapies that adapt automatically to each individual, improving effectiveness while reducing unnecessary stimulation.
           image: ai_driven.jpeg
-        - title: EMG-driven Exoskeletons
-          text: Recovering the ability to walk is a major priority for people with neurological injuries. We design exoskeletons that are controlled directly by the user’s muscle activity, so that assistance follows the person’s own motor intention. This approach promotes active participation and aims to make gait rehabilitation more effective and more personalised.
+        - title: Electrical Stimulation at the Cellular Level
+          text: Before a therapy reaches a patient, we want to understand how living tissue responds to it. We develop custom electrode platforms to stimulate and functionally assess muscle-like cells grown in vitro, bridging biomedical engineering, electrical stimulation and cell biology. This work helps us study how electrical signals shape muscle cells, and it brings a new perspective to the design of future neuromodulation therapies.
           image: exoscheletons.jpg
 
   - block: markdown
