@@ -36,10 +36,19 @@ sections:
     content:
       title: Our Laboratory
       text: |-
-        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 30px; width: 100%;">
-          <img src="uploads/setup.jpeg" alt="Experimental setup" style="display: block; width: 100%; height: 280px; object-fit: contain; border-radius: 10px;">
-          <img src="uploads/laboratory.png" alt="Laboratory prototyping" style="display: block; width: 100%; height: 280px; object-fit: contain; border-radius: 10px;">
-          <img src="uploads/laboratory2.png" alt="Signal acquisition" style="display: block; width: 100%; height: 280px; object-fit: contain; border-radius: 10px;">
+        <div class="not-prose" style="width: min(1100px, 100vw - 2rem); margin-left: 50%; transform: translateX(-50%); margin-top: 30px; display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px;">
+          <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
+            <img src="uploads/setup.jpeg" alt="Experimental setup" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
+            <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">Experimental setup</figcaption>
+          </figure>
+          <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
+            <img src="uploads/laboratory.png" alt="Laboratory prototyping" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
+            <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">Laboratory prototyping</figcaption>
+          </figure>
+          <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
+            <img src="uploads/laboratory2.png" alt="Signal acquisition" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
+            <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">Signal acquisition</figcaption>
+          </figure>
         </div>
         
   - block: collection
