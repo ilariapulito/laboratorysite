@@ -36,35 +36,10 @@ sections:
     content:
       title: Our Laboratory
       text: |-
-        <div style="display: flex; flex-direction: column; gap: 40px; margin-top: 30px; width: 100%;">
-
-          <!-- Prima riga: Immagine a sinistra, testo a destra -->
-          <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
-            <img src="uploads/setup.jpeg" alt="Experimental Setup" style="width: 100%; max-width: 320px; height: 220px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-            <div style="flex: 1; min-width: 250px;">
-              <h3 style="margin-top: 0;">Experimental Setup & Neuromodulation</h3>
-              <p>Our experimental setup is designed for high-density EMG acquisition and real-time nerve stimulation, enabling precise mapping and signal processing during motor tasks.</p>
-            </div>
-          </div>
-
-          <!-- Seconda riga: Testo a sinistra, immagine a destra -->
-          <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap-reverse;">
-            <div style="flex: 1; min-width: 250px;">
-              <h3 style="margin-top: 0;">Wearable Prototyping & Testing</h3>
-              <p>We design, build, and test custom wearable sleeves and sensor arrays for continuous monitoring and non-invasive tremor suppression.</p>
-            </div>
-            <img src="uploads/laboratory.png" alt="Laboratory Prototyping" style="width: 100%; max-width: 320px; height: 220px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-          </div>
-
-          <!-- Terza riga: Immagine a sinistra, testo a destra -->
-          <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
-            <img src="uploads/laboratory2.png" alt="Signal Acquisition" style="width: 100%; max-width: 320px; height: 220px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-            <div style="flex: 1; min-width: 250px;">
-              <h3 style="margin-top: 0;">Signal Acquisition & Instrumentation</h3>
-              <p>State-of-the-art isolated stimulation hardware and multi-channel amplifiers used for targeted peripheral stimulation and closed-loop control.</p>
-            </div>
-          </div>
-
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 30px; width: 100%;">
+          <img src="uploads/setup.jpeg" alt="Experimental setup" style="display: block; width: 100%; height: 280px; object-fit: contain; border-radius: 10px;">
+          <img src="uploads/laboratory.png" alt="Laboratory prototyping" style="display: block; width: 100%; height: 280px; object-fit: contain; border-radius: 10px;">
+          <img src="uploads/laboratory2.png" alt="Signal acquisition" style="display: block; width: 100%; height: 280px; object-fit: contain; border-radius: 10px;">
         </div>
         
   - block: collection
