@@ -49,6 +49,18 @@ sections:
             <img src="uploads/laboratory2.png" alt="Signal acquisition" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
             <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">Signal acquisition</figcaption>
           </figure>
+          <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
+            <img src="uploads/ai_protocol.png" alt="AI-based protocol" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
+            <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">AI-based protocol</figcaption>
+          </figure>
+          <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
+            <img src="uploads/cell_M.png" alt="Cellular stimulation" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
+            <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">Cellular stimulation</figcaption>
+          </figure>
+          <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
+            <img src="uploads/tremor.png" alt="Tremor research" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
+            <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">Tremor research</figcaption>
+          </figure>
         </div>
         
   - block: collection
@@ -76,7 +88,7 @@ sections:
       text: |-
         <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin-top: 20px; width: 100%;">
           <div style="flex: 1; min-width: 280px;">
-            <img src="uploads/ci2a.png" alt="Cajal Neuroscience Center" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+            <img src="uploads/ci2a.png" alt="Cajal Neuroscience Center" style="width: 100%; height: 350px; object-fit: contain; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
           </div>
           <div style="flex: 1; min-width: 280px;">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.2368793847886!2d-3.350135023594038!3d40.51425504969724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd424b7975ff2ecd%3A0x4283ca428f21c213!2sCi2A!5e0!3m2!1sit!2snl!4v1793113323437!5m2!1sit!2snl" width="100%" height="350" style="border:0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
