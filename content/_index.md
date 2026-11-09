@@ -9,7 +9,7 @@ sections:
       size: tall
       background:
         image:
-          filename: main_picture.jpeg
+          filename: neuromodulation.jpg
           filters:
             brightness: 0.5
         text_color_light: true
