@@ -21,14 +21,14 @@ sections:
     content:
       items:
         - title: Wearable Closed-Loop Neuromodulation
-          text: We develop wearable systems that combine sensing and stimulation in a single, non-invasive device. High-density EMG and inertial sensors continuously monitor motor activity, while peripheral electrical stimulation is delivered only when and how it is needed. Designed for people with movement disorders such as essential tremor and Parkinson’s disease, these devices aim to make therapy personalised, unobtrusive and usable in everyday life.
+          text: We develop wearable devices that listen to the body and respond to it. By reading muscle activity with high-density EMG, our systems deliver peripheral electrical stimulation only when and how it is needed, with no surgery and no implants. We investigate how this EMG-guided therapy can quiet tremor in essential tremor and Parkinson’s disease, from the physiology behind its effects to devices people can wear in daily life.
           image: wereable.jpeg
         - title: AI-driven Adaptive Therapies
-          text: Tremor changes over time, between patients and even within a single day. We use artificial intelligence to learn from wearable accelerometer data and anticipate how a patient’s tremor will evolve, so that stimulation can be adjusted following the tremor pattern. These data-driven strategies pave the way for therapies that adapt automatically to each individual, improving effectiveness while reducing unnecessary stimulation.
+          text: No two tremors are alike, and no tremor stays the same. We use artificial intelligence to learn from each patient’s own data, so that therapy can adapt over time instead of following a fixed protocol. These data-driven strategies pave the way for treatments that tune themselves to each individual, improving effectiveness while reducing unnecessary stimulation.
           image: ai_driven.jpeg
         - title: Electrical Stimulation at the Cellular Level
           text: Before a therapy reaches a patient, we want to understand how living tissue responds to it. We develop custom electrode platforms to stimulate and functionally assess muscle-like cells grown in vitro, bridging biomedical engineering, electrical stimulation and cell biology. This work helps us study how electrical signals shape muscle cells, and it brings a new perspective to the design of future neuromodulation therapies.
-          image: exoscheletons.jpg
+          image: cells.png
 
   - block: markdown
     design:
