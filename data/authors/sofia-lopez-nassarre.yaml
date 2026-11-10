@@ -7,7 +7,7 @@ user_groups:
   - Students
 
 # Mini-resumen con percorso accademico, scambio all'estero e focus di ricerca
-bio: "Biomedical Engineering student at UC3M. Researching wearable sleeves for essential tremor suppression."
+bio: "Biomedical Engineering student at UC3M (Universidad Carlos III de Madrid). Researching wearable sleeves for essential tremor suppression."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)

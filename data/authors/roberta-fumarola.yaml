@@ -7,7 +7,7 @@ user_groups:
   - Students
 
 # Mini-resumen del percorso e tesi (con laurea triennale integrata)
-bio: "Master's thesis student at CSIC. BSc in Biomedical Engineering from University of Genoa. Researching lower-limb spinal reflex neuromodulation for stroke rehabilitation."
+bio: "BSc in Biomedical Engineering from University of Genoa. Researching lower-limb spinal reflex neuromodulation for stroke rehabilitation."
 
 affiliations:
   - name: Neural Engineering Laboratory (CSIC)
