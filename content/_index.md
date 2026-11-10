@@ -15,18 +15,18 @@ sections:
         text_color_light: true
     content:
       title: Neural Engineering Laboratory
-      text: Neuroengineering motor control and personalized rehabilitation
+      text: Neurotechnology for movement disorders and motor rehabilitation
 
   - block: cta-image-paragraph
     content:
       items:
-        - title: Wearable Closed-Loop Neuromodulation
+        - title: Wearable closed-loop neuromodulation
           text: We develop wearable devices that listen to the body and respond to it. By reading muscle activity with high-density EMG, our systems deliver peripheral electrical stimulation only when and how it is needed, with no surgery and no implants. We investigate how this EMG-guided therapy can quiet tremor in essential tremor and Parkinson’s disease, from the physiology behind its effects to devices people can wear in daily life.
           image: wereable.jpeg
-        - title: AI-driven Adaptive Therapies
+        - title: AI-driven adaptive therapies
           text: No two tremors are alike, and no tremor stays the same. We use artificial intelligence to learn from each patient’s own data, so that therapy can adapt over time instead of following a fixed protocol. These data-driven strategies pave the way for treatments that tune themselves to each individual, improving effectiveness while reducing unnecessary stimulation.
           image: ai_driven.jpeg
-        - title: Electrical Stimulation at the Cellular Level
+        - title: Electrical stimulation at the cellular level
           text: Before a therapy reaches a patient, we want to understand how living tissue responds to it. We develop custom electrode platforms to stimulate and functionally assess muscle-like cells grown in vitro, bridging biomedical engineering, electrical stimulation and cell biology. This work helps us study how electrical signals shape muscle cells, and it brings a new perspective to the design of future neuromodulation therapies.
           image: cells.png
 
@@ -34,7 +34,7 @@ sections:
     design:
       columns: '1'
     content:
-      title: Our Laboratory
+      title: Our laboratory
       text: |-
         <div class="not-prose" style="width: min(1100px, 100vw - 2rem); margin-left: 50%; transform: translateX(-50%); margin-top: 30px; display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px;">
           <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
@@ -68,7 +68,7 @@ sections:
       columns: '1'
       view: citation
     content:
-      title: Selected Publications
+      title: Selected publications
       subtitle: Recent high-impact research outputs
       text: ''
       filters:
@@ -84,7 +84,7 @@ sections:
     design:
       columns: '1' # Estende il blocco a tutta la larghezza
     content:
-      title: Where We Are
+      title: Where we are
       text: |-
         <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin-top: 20px; width: 100%;">
           <div style="flex: 1; min-width: 280px;">
