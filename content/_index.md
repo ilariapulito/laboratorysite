@@ -50,7 +50,7 @@ sections:
             <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">Signal acquisition</figcaption>
           </figure>
           <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
-            <img src="uploads/ai_protocol.png" alt="AI-based protocol" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
+            <img src="uploads/acceleration.jpeg" alt="AI-based protocol" style="width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 10px;">
             <figcaption style="margin-top: 8px; font-size: 0.9rem; text-align: center;">AI-based protocol</figcaption>
           </figure>
           <figure style="flex: 0 0 min(85%, 800px); scroll-snap-align: center; margin: 0;">
